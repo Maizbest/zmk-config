@@ -33,11 +33,11 @@
 
         lower_layer {
             bindings = <
-  &kp TILDE  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)      &kp LS(NUMBER_8)       &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp DELETE
-  &kp GRAVE  &kp F1            &kp F2            &kp F3            &kp F4            &none               &none             &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)     &kp LS(EQUAL)     &kp LS(BACKSLASH)
-  &trans     &kp F5            &kp F6            &kp F7            &kp F8            &none               &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp EQUAL         &kp LS(SINGLE_QUOTE)
-  &trans     &kp F9            &kp F10           &kp F11           &kp F12           &none               &trans            &trans                &kp LS(COMMA)          &kp LS(PERIOD)    &kp LS(SLASH)     &trans
-                               &trans            &trans            &trans            &trans              &trans            &trans                &trans                 &trans
+  &kp TILDE       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)      &kp LS(NUMBER_8)       &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp DELETE
+  &kp GRAVE       &kp F1            &kp F2            &kp F3            &kp F4            &none               &none             &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(MINUS)     &kp LS(EQUAL)     &kp LS(BACKSLASH)
+  &kp LEFT_SHIFT  &kp F5            &kp F6            &kp F7            &kp F8            &none               &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp EQUAL         &kp LS(SINGLE_QUOTE)
+  &trans          &kp F9            &kp F10           &kp F11           &kp F12           &none               &trans            &trans                &kp LS(COMMA)          &kp LS(PERIOD)    &kp LS(SLASH)     &trans
+                                    &trans            &trans            &trans            &trans              &trans            &trans                &trans                 &trans
             >;
         };
 
