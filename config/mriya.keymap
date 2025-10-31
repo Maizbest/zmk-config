@@ -47,7 +47,7 @@
   &kp KP_NUM  &kp DEL          &kp DEL    &kp DEL    &kp DEL    &kp KP_MINUS    &none     &kp HOME   &kp END    &none      &none    &kp INSERT
   &kp LSHFT   &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp INS  &kp RSHFT
   &kp LCTRL   &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &none     &kp PG_DN  &kp PG_UP  &kp MINUS  &none    &kp RCTRL
-                               &trans     &trans     &trans     &lt 3 RET       &trans    &trans     &trans     &trans
+                               &trans     &trans     &to 3      &lt 3 RET       &trans    &trans     &trans     &trans
             >;
         };
 
@@ -58,6 +58,16 @@
   &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
   &sys_reset   &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &sys_reset
                              &none         &trans        &none         &trans          &trans        &none         &trans        &none
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
